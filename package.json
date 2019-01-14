@@ -1,0 +1,55 @@
+{
+  "name": "react-changelogs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack-dev-server --mode development --config ./config/webpack.config.dev.js",
+    "start": "npm run dev",
+    "build": "npx webpack --mode production --color  --config ./config/webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:freeshineit/react-changelog.git"
+  },
+  "keywords": [],
+  "author": "shineshao <xiaoshaoqq@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freeshineit/react-changelog/issues"
+  },
+  "homepage": "https://github.com/freeshineit/react-changelog#readme",
+  "devDependencies": {
+    "@types/classnames": "^2.2.6",
+    "@types/prop-types": "^15.5.8",
+    "@types/react": "^16.7.17",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-router-config": "^1.1.0",
+    "@types/react-router-dom": "^4.3.1",
+    "classnames": "^2.2.6",
+    "css-loader": "^2.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^3.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-countup": "^4.0.0",
+    "react-dom": "^16.6.3",
+    "react-router-config": "^4.4.0-beta.6",
+    "react-router-dom": "^4.3.1",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-loader": "^3.5.4",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.2.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.11",
+    "webpack-merge": "^4.1.5"
+  }
+}
