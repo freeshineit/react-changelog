@@ -94,7 +94,7 @@
 
 -   改进非DOM环境中的回退机制。([@acdlite](https://github.com/acdlite) in [#13740](https://github.com/facebook/react/pull/13842))
 
--   提前安排requestAnimationFrame。([@acdlite](https://github.com/acdlite) in [#13785](https://github.com/facebook/react/pull/13785))
+-   提前安排 `requestAnimationFrame`。([@acdlite](https://github.com/acdlite) in [#13785](https://github.com/facebook/react/pull/13785))
 
 -   修复DOM检测更彻底。([@trueadm](https://github.com/trueadm) in [#13731](https://github.com/facebook/react/pull/13731))
 
