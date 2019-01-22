@@ -1,17 +1,41 @@
 # react-changelogs
 
 ## 16.7
--   [Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1670-december-19-2018)
+
+### React DOM
+
+-   修复React.lazy对大量延迟加载组件的性能。([@acdlite](https://github.com/acdlite) in [#14429](https://github.com/facebook/react/pull/14429))
+
+-   卸载时清除字段以避免内存泄漏。([@trueadm](https://github.com/trueadm) in [#14276](https://github.com/facebook/react/pull/14276))
+
+-   当混合`react-dom/server@16.6`并且`react@<16.6`时，修复SSR和上下文的错误。([@gaearon](https://github.com/gaearon) in [#14291](https://github.com/facebook/react/pull/14291))
+
+-  修复分析模式中性能回归。 ([@bvaughn](https://github.com/bvaughn) in [#14383](https://github.com/facebook/react/pull/14383))
+
+### Scheduler (Experimental)(调度程序)
+
+-   发布到`MessageChannel`而不是`window`。([@acdlite](https://github.com/acdlite) in [#14234](https://github.com/facebook/react/pull/14234))
+
+-   减少序列化开销。([@developit](https://github.com/developit) in [#14249](https://github.com/facebook/react/pull/14249))
+
+-   修复测试环境中setTimeout的回退。([@bvaughn](https://github.com/bvaughn) in [#14358](https://github.com/facebook/react/pull/14358))
+
+-   添加调试方法。([@mrkev](https://github.com/mrkev) in [#14053](https://github.com/facebook/react/pull/14053))
+
+
+[Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1670-december-19-2018)
+
+[Documentation](https://reactjs.org/blog/2018/12/19/react-v-16-7.html)
 
 ## 16.6
 
--   [Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1660-october-23-2018)
--   [Documentation](https://5c11762d4be4d10008916ab1--reactjs.netlify.com/)
+[Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1660-october-23-2018)
+[Documentation](https://5c11762d4be4d10008916ab1--reactjs.netlify.com/)
 
 ## 16.5
 
--   [Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1650-september-5-2018)
--   [Documentation](https://5bcf5863c6aed64970d6de5b--reactjs.netlify.com/)
+[Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1650-september-5-2018)
+[Documentation](https://5bcf5863c6aed64970d6de5b--reactjs.netlify.com/)
 
 ## 16.4.1 (2018-06-13)
 
