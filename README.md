@@ -37,6 +37,20 @@
 
 ## 16.6.1 (2018-11-06)
 
+### React DOM
+
+-   每次promise resolves 倒退不应该重新挂载。([@acdlite](https://github.com/acdlite) in [#14083](https://github.com/facebook/react/pull/14083)))
+
+-   修复即使在所有内容完成加载后 `Suspense` 仍然显示回退的错误。([@acdlite](https://github.com/acdlite) in [#14083](https://github.com/facebook/react/pull/14083))
+
+-   修复 `lazy` 组件的生命周期方法中未解析的默认 `props`。([@gaearon](https://github.com/gaearon) in [#14112](https://github.com/facebook/react/pull/14112))
+
+-   修复从完成阶段抛出的错误中恢复时的错误。([@gaearon](https://github.com/gaearon) in [#14104](https://github.com/facebook/react/pull/14104))
+
+### 调度程序（实验）
+
+-   从 `deadline` 对象切换到 `shouldYield` API。([@acdlite](https://github.com/acdlite) in [#14025](https://github.com/facebook/react/pull/14025))
+
 
 ## 16.6.0 (2018-10-23)
 
