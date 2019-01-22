@@ -24,13 +24,22 @@
 
 
 [Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1670-december-19-2018)
-
 [Documentation](https://reactjs.org/blog/2018/12/19/react-v-16-7.html)
 
-## 16.6
+## 16.6.3 (2018-11-12)
 
-[Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1660-october-23-2018)
+[Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1663-november-12-2018)
 [Documentation](https://5c11762d4be4d10008916ab1--reactjs.netlify.com/)
+
+## 16.6.2 (2018-11-12)
+
+此版本是以中断状态发布的，应跳过。
+
+## 16.6.1 (2018-11-06)
+
+
+## 16.6.0 (2018-11-06)
+
 
 ## 16.5
 
