@@ -54,7 +54,53 @@
 
 ## 16.6.0 (2018-10-23)
 
+### React
 
+-   添加 `React.memo()` 作为 `PureComponent` 的替代函数。([@acdlite](https://github.com/acdlite) in [#13748](https://github.com/facebook/react/pull/13748))
+
+-   为代码拆分组件添加 `React.lazy()`。([@acdlite](https://github.com/acdlite) in [#13885](https://github.com/facebook/react/pull/13885))
+
+-   `React.StrictMode` 现在警告遗留上下文API。([@bvaughn](https://github.com/bvaughn) in [#13760](https://github.com/facebook/react/pull/13760))
+
+-   `React.StrictMode` 现在警告`findDOMNode`。([@sebmarkbage](https://github.com/sebmarkbage) in [#13841](https://github.com/facebook/react/pull/13841))
+
+-   将 `unstable_AsyncMode` 重命名为 `unstable_ConcurrentMode`。([@trueadm](https://github.com/trueadm) in [#13732](https://github.com/facebook/react/pull/13732))
+
+-   将 `unstable_Placeholder` 重命名为 `Suspense`，将 `delayMs` 重命名为 `maxDuration`。([@gaearon](https://github.com/gaearon) in [#13799](https://github.com/facebook/react/pull/13799) and [@sebmarkbage](https://github.com/sebmarkbage) in [#13922](https://github.com/facebook/react/pull/13922))
+
+### React DOM
+
+-   添加 `contextType` 作为一种更符合人体工程学的方式来从类订阅上下文。([@bvaughn](https://github.com/bvaughn) in [#13728](https://github.com/facebook/react/pull/13728))
+
+-   添加 `getDerivedStateFromError` 生命周期方法，以便在将来的异步服务器端渲染器中捕获错误。([@bvaughn](https://github.com/bvaughn) in [#13746](https://github.com/facebook/react/pull/13746))
+
+-   使用 `<Context>` 而不是 `<Context.Consumer>` 时发出警告。([@trueadm](https://github.com/trueadm) in [#13829](https://github.com/facebook/react/pull/13829))
+
+-   修复iOS Safari上的灰色叠加层。([@philipp-spiess](https://github.com/philipp-spiess) in [#13778](https://github.com/facebook/react/pull/13778))
+
+-   修复因开发中覆盖 `window.event` 而导致的错误。([@sergei-startsev](https://github.com/sergei-startsev) in [#13697](https://github.com/facebook/react/pull/13697))
+
+### React DOM Server
+
+-   添加对 `React.memo()` 的支持。([@alexmckenley](https://github.com/alexmckenley) in [#13855](https://github.com/facebook/react/pull/13855))
+
+-   添加对 `contextType` 的支持。([@alexmckenley](https://github.com/alexmckenley) and [@sebmarkbage](https://github.com/sebmarkbage) in [#13889](https://github.com/facebook/react/pull/13889))
+
+### 调度程序（实验）
+
+-   将包重命名为scheduler。([@gaearon](https://github.com/gaearon) in [#13683](https://github.com/facebook/react/pull/13683))
+
+-   支持优先级，延续和包装回调。([@acdlite](https://github.com/acdlite) in [#13720](https://github.com/facebook/react/pull/13720) and [#13842](https://github.com/facebook/react/pull/13842))
+
+-   改进非DOM环境中的回退机制。([@acdlite](https://github.com/acdlite) in [#13740](https://github.com/facebook/react/pull/13842))
+
+-   提前安排requestAnimationFrame。([@acdlite](https://github.com/acdlite) in [#13785](https://github.com/facebook/react/pull/13785))
+
+-   修复DOM检测更彻底。([@trueadm](https://github.com/trueadm) in [#13731](https://github.com/facebook/react/pull/13731))
+
+-   通过交互跟踪修复错误。([@bvaughn](https://github.com/bvaughn) in [#13590](https://github.com/facebook/react/pull/13590))
+
+-   将 `envify` 转换添加到包中。([@mridgway](https://github.com/mridgway) in [#13766](https://github.com/facebook/react/pull/13766))
 
 ## 16.5.2 (2018-09-18)
 
