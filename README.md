@@ -41,16 +41,27 @@
 ## 16.6.0 (2018-10-23)
 
 
-## 16.5
 
-[Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1650-september-5-2018)
+## 16.5.2 (2018-09-18)
+
+
+[Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1652-september-18-2018)
 [Documentation](https://5bcf5863c6aed64970d6de5b--reactjs.netlify.com/)
+
+
+## 16.5.1 (2018-09-13)
+
+
+## 16.5.0 (2018-09-05)
+
+
+## 16.4.2 (2018-08-01)
+
+[Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1642-august-1-2018)
+[Documentation](https://5b90c17ac9659241e7f4c938--reactjs.netlify.com/)
 
 ## 16.4.1 (2018-06-13)
 
-
-[Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1641-June-13-2018)
-[Documentation](https://5b90c17ac9659241e7f4c938--reactjs.netlify.com/)
 
 ## 16.4.0 (2018-05-23)
 
