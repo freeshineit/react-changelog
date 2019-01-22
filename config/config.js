@@ -1,4 +1,0 @@
-const config = {
-	development: {},
-	production: {}
-}
