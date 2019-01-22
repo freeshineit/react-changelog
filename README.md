@@ -104,8 +104,22 @@
 
 ## 16.5.2 (2018-09-18)
 
+### React DOM
+
+-   修复了最近的 `<iframe>` 回归。([@JSteunou](https://github.com/JSteunou) in [#13650](https://github.com/facebook/react/pull/13650))
+
+-   修复 `updateWrapper`，以便在数据不变时 `<textarea>` 不再重新渲染。([@joelbarbosa](https://github.com/joelbarbosa) in [#13643](https://github.com/facebook/react/pull/13643))
+
+### 调度程序（实验）
+
+-   将 `tracking` API重命名为 `tracing`。([@bvaughn](https://github.com/bvaughn) in [#13641](https://github.com/facebook/react/pull/13641))
+
+-   添加UMD生产+分析入口点。([@bvaughn](https://github.com/bvaughn) in [#13642](https://github.com/facebook/react/pull/13642))
+
+-   重构 `schedule` 以删除一些 `React-isms` 并提高延迟更新超时的性能。([@acdlite](https://github.com/acdlite) in [#13582](https://github.com/facebook/react/pull/13582))
 
 [Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1652-september-18-2018)
+
 [Documentation](https://5bcf5863c6aed64970d6de5b--reactjs.netlify.com/)
 
 
