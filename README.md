@@ -12,7 +12,7 @@
 
 -  修复分析模式中性能回归。 ([@bvaughn](https://github.com/bvaughn) in [#14383](https://github.com/facebook/react/pull/14383))
 
-### Scheduler (Experimental)(调度程序)
+### 调度程序（实验）
 
 -   发布到`MessageChannel`而不是`window`。([@acdlite](https://github.com/acdlite) in [#14234](https://github.com/facebook/react/pull/14234))
 
@@ -86,11 +86,11 @@
 
 -   修复由`React DOM`管理的树提供的读取上下文。([@acdlite](https://github.com/acdlite) in [#12779](https://github.com/facebook/react/pull/12779))
 
-### React Call Return (Experimental)
+### React Call Return (实验)
 
 -   此实验已删除，因为它影响了包大小，并且API不够好。 它可能会在未来以某种其他形式回来。([@gaearon](https://github.com/gaearon) in [#12820](https://github.com/facebook/react/pull/12820))
 
-### React Reconciler (Experimental)
+### React Reconciler (实验)
 
 -   The new [host config shape](https://github.com/facebook/react/blob/c601f7a64640290af85c9f0e33c78480656b46bc/packages/react-noop-renderer/src/createReactNoop.js#L82-L285) is flat and doesn't use nested objects.([@gaearon](https://github.com/gaearon) in [#12792](https://github.com/facebook/react/pull/12792))
 
