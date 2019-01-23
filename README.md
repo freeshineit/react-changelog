@@ -150,6 +150,13 @@
 
 ## 16.4.2 (2018-08-01)
 
+### React DOM Server
+
+-  修复[攻击者控制属性名称(`CVE-2018-6341`)时潜在的XSS漏洞](https://reactjs.org/blog/2018/08/01/react-v-16-4-2.html)。 最新的 `react-dom@16.4.2` 以及以前受影响的次要版本中提供了此修订：`react-dom@16.0.1`，`react-dom@16.1.2`，`react-dom@16.2.1`和 `react-dom@16.3.3`。([@gaearon](https://github.com/gaearon) in [#13302](https://github.com/facebook/react/pull/13302))
+
+-   在调用属性 `hasOwnProperty` 时修复服务器渲染器中的崩溃。 此修复仅在 `react-dom@16.4.2` 中提供。([@gaearon](https://github.com/gaearon) in [#13303](https://github.com/facebook/react/pull/13303))
+
+
 [Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1642-august-1-2018)
 [Documentation](https://5b90c17ac9659241e7f4c938--reactjs.netlify.com/)
 
