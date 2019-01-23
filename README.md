@@ -28,7 +28,25 @@
 
 ## 16.6.3 (2018-11-12)
 
+### React DOM
+
+-   修复 `Suspense` 和 `lazy` 中的bugs。([@acdlite](https://github.com/acdlite) in [#14133](https://github.com/facebook/react/pull/14133), [#14157](https://github.com/facebook/react/pull/14157), and [#14164](https://github.com/facebook/react/pull/14164))
+
+-   修复React DevTools中 `React.memo` 更新的突出显示。([@bvaughn](https://github.com/bvaughn) in [#14141](https://github.com/facebook/react/pull/14141))
+
+-   修复 `Suspense` 与 `React Profiler` 的交互。([@bvaughn](https://github.com/bvaughn) in [#14065](https://github.com/facebook/react/pull/14065))
+
+-   修复使用 `Suspense` 时误报警告。([@acdlite](https://github.com/acdlite) in [#14158](https://github.com/facebook/react/pull/14158))
+
+### React DOM Server
+
+-   修复 `renderToNodeStream()` 调用之间不正确的上下文状态共享。([@sebmarkbage](https://github.com/sebmarkbage) in [#14182](https://github.com/facebook/react/pull/14182))
+
+-   添加有关 `context` API使用不正确的警告。([@trueadm](https://github.com/trueadm) in [#14033](https://github.com/facebook/react/pull/14033))
+
+
 [Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1663-november-12-2018)
+
 [Documentation](https://5c11762d4be4d10008916ab1--reactjs.netlify.com/)
 
 ## 16.6.2 (2018-11-12)
