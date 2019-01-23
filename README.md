@@ -1,6 +1,6 @@
 # react-changelogs
 
-## 16.7
+## 16.7.0 (2018-12-19)
 
 ### React DOM
 
@@ -24,6 +24,7 @@
 
 
 [Changelog](https://github.com/facebook/react/blob/master/CHANGELOG.md#1670-december-19-2018)
+
 [Documentation](https://reactjs.org/blog/2018/12/19/react-v-16-7.html)
 
 ## 16.6.3 (2018-11-12)
