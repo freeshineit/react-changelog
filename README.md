@@ -125,6 +125,25 @@
 
 ## 16.5.1 (2018-09-13)
 
+### React
+
+-   当 `React.forwardRef` 收到意外数量的参数时，改进警告。([@andresroberto](https://github.com/andresroberto) in [#13636](https://github.com/facebook/react/pull/13636))
+
+### React DOM
+
+-   修复React Native Web使用的不稳定导出中的回归。([@aweary](https://github.com/aweary) in [#13598](https://github.com/facebook/react/pull/13598))
+
+-   修复组件定义名为 `isReactComponent` 的方法时发生崩溃的问题。([@gaearon](https://github.com/gaearon) in [#13608](https://github.com/facebook/react/pull/13608))
+
+-   修复在打印警告时IE9中的开发模式崩溃。([@link-alex](https://github.com/link-alex) in [#13620](https://github.com/facebook/react/pull/13620))
+
+-   在使用 `schedule/tracking` 运行 `react-dom/profiling` 时提供更好的错误消息。([@bvaughn](https://github.com/bvaughn) in [#13605](https://github.com/facebook/react/pull/13605))
+
+-   如果 `ForwardRef` 组件定义了 `displayName`，请在警告中使用它。([@probablyup](https://github.com/probablyup) in [#13615](https://github.com/facebook/react/pull/13615))
+
+### 调度程序（实验）
+
+-   在 `schedule/tracking-profiling` 中添加一个单独的分析入口点。([@bvaughn](https://github.com/bvaughn) in [#13605](https://github.com/facebook/react/pull/13605))
 
 ## 16.5.0 (2018-09-05)
 
