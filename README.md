@@ -4,7 +4,7 @@
 
 ### React DOM
 
--   修复React.lazy对大量延迟加载组件的性能。([@acdlite](https://github.com/acdlite) in [#14429](https://github.com/facebook/react/pull/14429))
+-   修复 `React.lazy` 对大量延迟加载组件的性能。([@acdlite](https://github.com/acdlite) in [#14429](https://github.com/facebook/react/pull/14429))
 
 -   卸载时清除字段以避免内存泄漏。([@trueadm](https://github.com/trueadm) in [#14276](https://github.com/facebook/react/pull/14276))
 
@@ -18,7 +18,7 @@
 
 -   减少序列化开销。([@developit](https://github.com/developit) in [#14249](https://github.com/facebook/react/pull/14249))
 
--   修复测试环境中setTimeout的回退。([@bvaughn](https://github.com/bvaughn) in [#14358](https://github.com/facebook/react/pull/14358))
+-   修复测试环境中`setTimeout`的回退。([@bvaughn](https://github.com/bvaughn) in [#14358](https://github.com/facebook/react/pull/14358))
 
 -   添加调试方法。([@mrkev](https://github.com/mrkev) in [#14053](https://github.com/facebook/react/pull/14053))
 
@@ -88,7 +88,7 @@
 
 ### 调度程序（实验）
 
--   将包重命名为scheduler。([@gaearon](https://github.com/gaearon) in [#13683](https://github.com/facebook/react/pull/13683))
+-   将包重命名为`scheduler`。([@gaearon](https://github.com/gaearon) in [#13683](https://github.com/facebook/react/pull/13683))
 
 -   支持优先级，延续和包装回调。([@acdlite](https://github.com/acdlite) in [#13720](https://github.com/facebook/react/pull/13720) and [#13842](https://github.com/facebook/react/pull/13842))
 
