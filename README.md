@@ -166,6 +166,48 @@
 
 ## 16.5.0 (2018-09-05)
 
+### React
+
+-   添加了一个警告如果 `React.forwardRef` 渲染函数不能准确地使用两个参数。([@bvaughn](https://github.com/bvaughn) in [#13168](https://github.com/facebook/react/pull/13168))
+
+-   改进了错误消息当错误地将元素传递给createElement时。([@DCtheTall](https://github.com/DCtheTall) in [#13131](https://github.com/facebook/react/pull/13131))
+
+-   不要在突变之后调用探测器 `onRender`。([@bvaughn](https://github.com/bvaughn) in [#13572](https://github.com/facebook/react/pull/13572))
+
+### React DOM
+
+-   添加对React DevTools Profiler的支持 ([@bvaughn](https://github.com/bvaughn) in [#13058](https://github.com/facebook/react/pull/13058))
+
+-   为生产中的分析添加 `react-dom/profiling` 入口点别名。([@bvaughn](https://github.com/bvaughn) in [#13570](https://github.com/facebook/react/pull/13570))
+
+-   为支持 `onAuxClick` 事件的浏览器添加了该事件。([@jquense](https://github.com/jquense) in [#11571](https://github.com/facebook/react/pull/11571))
+
+-   将 `movingX` 和 `movementY` 字段添加到鼠标事件中。([@jasonwilliams](https://github.com/jasonwilliams) in [#9018](https://github.com/facebook/react/pull/9018))
+
+-   将 `tangentialPressure` 和 `twist` 字段添加到`pointer`事件。([@motiz88](https://github.com/motiz88) in [#13374](https://github.com/facebook/react/pull/13374))
+
+-   在选择事件处理中最小化支持 `iframe`（嵌套浏览上下文）。([@acusti](https://github.com/acusti) in [#12037](https://github.com/facebook/react/pull/12037))
+
+-   支持将布尔值传递给SVG的 `focusable` 属性。([@gaearon](https://github.com/gaearon) in [#13339](https://github.com/facebook/react/pull/13339))
+
+-   在合成阶段忽略客户端上的 `<noscript>` 。([@Ephem](https://github.com/Ephem) in [#13537](https://github.com/facebook/react/pull/13537))
+
+-   修复`gridArea`被作为无单位CSS属性。([@mgol](https://github.com/mgol) in [#13550](https://github.com/facebook/react/pull/13550))
+
+-   修复在IE11上键入韩语时 `compositionend` 事件中的错误数据。([@crux153](https://github.com/crux153) in [#12563](https://github.com/facebook/react/pull/12563))
+
+-   修复在 `<option>` 标签中使用动态子项时崩溃。([@Slowyn](https://github.com/Slowyn) in [#13261](https://github.com/facebook/react/pull/13261), [@gaearon](https://github.com/gaearon) in [#13465](https://github.com/facebook/react/pull/13465))
+
+-   修复`checked`属性最初未在`input`上设置。 ([@dilidili](https://github.com/dilidili) in [#13114](https://github.com/facebook/react/pull/13465))
+
+-   当 `__html` 不是字符串时，修复`dangerouslySetInnerHTML`的合成期间
+
+
+
+
+
+
+
 
 ## 16.4.2 (2018-08-01)
 
