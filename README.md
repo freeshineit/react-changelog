@@ -181,6 +181,33 @@
 
 ## 16.4.1 (2018-06-13)
 
+### React
+
+-   您现在可以将 `propTypes` 分配给 `React.ForwardRef` 返回的组件。([@bvaughn](https://github.com/bvaughn) in [#12911](https://github.com/facebook/react/pull/12911))
+
+### React DOM
+
+-   修复输入类型从其他类型更改为 `text` 时崩溃的问题。([@spirosikmd](https://github.com/spirosikmd) in [#12135](https://github.com/facebook/react/pull/12135))
+
+-   修复了将焦点恢复到SVG元素时IE11中的崩溃问题。([@ThaddeusJiang](https://github.com/ThaddeusJiang) in [#12996](https://github.com/facebook/react/pull/12996))
+
+-   在某些情况下修复`range input`未更新。([@Illu](https://github.com/Illu) in [#12939](https://github.com/facebook/react/pull/12939))
+
+-   修复Firefox中不必要地触发输入验证的问题。([@nhunzaker](https://github.com/nhunzaker) in [#12925](https://github.com/facebook/react/pull/12925))
+
+-   修复IE9中 `onChange` 事件的错误 `event.target` 值。([@nhunzaker](https://github.com/nhunzaker) in [#12976](https://github.com/facebook/react/pull/12976))
+
+-   修复从组件返回空 `<React.Fragment />` 时误报错误。([@philipp-spiess](https://github.com/philipp-spiess) in [#12966](https://github.com/facebook/react/pull/12966))
+
+### React DOM Server
+
+-   修复新的`context` API提供的错误值。([@ericsoderberghp](https://github.com/ericsoderberghp) in [#12985](https://github.com/facebook/react/pull/12985), [@gaearon](https://github.com/gaearon) in [#13019](https://github.com/facebook/react/pull/13019))
+
+### React Test Renderer
+
+-   在测试渲染器遍历API中允许多个根子元素。([@gaearon](https://github.com/gaearon) in [#13017](https://github.com/facebook/react/pull/13017))
+
+-   修复浅渲染器中的 `getDerivedStateFromProps()` 以不丢弃挂起状态。([@fatfisz](https://github.com/fatfisz) in [#13030](https://github.com/facebook/react/pull/13030))
 
 ## 16.4.0 (2018-05-23)
 
