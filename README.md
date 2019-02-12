@@ -1,5 +1,9 @@
 # react-changelogs
 
+## 16.8.1 (2019-01-06) 
+
+## 16.8.0 (2019-01-06)
+
 ## 16.7.0 (2018-12-19)
 
 ### React DOM
@@ -200,13 +204,77 @@
 
 -   修复`checked`属性最初未在`input`上设置。 ([@dilidili](https://github.com/dilidili) in [#13114](https://github.com/facebook/react/pull/13465))
 
--   当 `__html` 不是字符串时，修复`dangerouslySetInnerHTML`的合成期间
+-   当 `__html` 不是字符串时，修复`dangerouslySetInnerHTML`的合成期间。([@gaearon](https://github.com/gaearon) in [#13353](https://github.com/facebook/react/pull/13353))
 
+-   修复关于缺少受控 `onChange` 的警告，以便对伪造的值进行触发。([@nicolevy](https://github.com/nicolevy) in [#12628](https://github.com/facebook/react/pull/12628))
 
+-   修复 `submit` 和 `reset` 按钮获取空标签。([@ellsclytn](https://github.com/ellsclytn) in [#12780](https://github.com/facebook/react/pull/12780))
 
+-   修复拖放后未触发的 `onSelect` 事件。([@gaearon](https://github.com/gaearon) in [#13422](https://github.com/facebook/react/pull/13422))
 
+-   修复onClick事件在iOS上的门户网站内无法正常工作。([@aweary](https://github.com/aweary) in [#11927](https://github.com/facebook/react/pull/11927))
 
+-   解决在重新渲染数千个根时性能问题。([@gaearon](https://github.com/gaearon) in [#13335](https://github.com/facebook/react/pull/13335))
 
+-   修复一个性能回归，这种回归也会导致 `onChange` 在某些情况下不会触发。([@gaearon](https://github.com/gaearon) in [#13423](https://github.com/facebook/react/pull/13423))
+
+-   更优雅地处理更多edge案例中的错误。([@gaearon](https://github.com/gaearon) in [#13237](https://github.com/facebook/react/pull/13237) and [@acdlite](https://github.com/acdlite) in [#13269](https://github.com/facebook/react/pull/13269))
+
+-   不要在开发中使用代理来处理合成事件。([@gaearon](https://github.com/gaearon) in [#12171](https://github.com/facebook/react/pull/12171))
+
+-   当"false"或"true"是布尔DOM prop的值时发出警告。 ([@motiz88](https://github.com/motiz88) in [#13372](https://github.com/facebook/react/pull/13372))
+
+-   当 `this.state` 初始化为 `props` 时发出警告。([@veekas](https://github.com/veekas) in [#11658](https://github.com/facebook/react/pull/11658))
+
+-   由于嘈杂的误报不要在合成期间比较 `style` 在IE中。([@mgol](https://github.com/mgol) in [#13534](https://github.com/facebook/react/pull/13534))
+
+-   在组件堆栈中包含 `StrictMode` 。 ([@gaearon](https://github.com/gaearon) in [#13240](https://github.com/facebook/react/pull/13240))
+
+-   不要在IE中覆盖 `window.event`。([@ConradIrwin](https://github.com/ConradIrwin) in [#11696](https://github.com/facebook/react/pull/11696))
+
+-   改进 `folder/index.js` 命名约定的组件堆栈。([@gaearon](https://github.com/gaearon) in [#12059](https://github.com/facebook/react/pull/12059))
+
+-   改进使用没有初始化状态的getDerivedStateFromProps时警告。([@flxwu](https://github.com/flxwu) in [#13317](https://github.com/facebook/react/pull/13317))
+
+-   改进有关无效textarea使用的警告。([@raunofreiberg](https://github.com/raunofreiberg) in [#13361](https://github.com/facebook/react/pull/13361))
+
+-   更一致地处理无效的符号和函数值。 ([@raunofreiberg](https://github.com/raunofreiberg) in [#13362](https://github.com/facebook/react/pull/13362) and [#13389](https://github.com/facebook/react/pull/13389))
+
+-   在没有警告的情况下允许`Electron` `<webview>`标签。([@philipp-spiess](https://github.com/philipp-spiess) in [#13301](https://github.com/facebook/react/pull/13301))
+
+-   如果调用e.preventDefault（），请不要显示未捕获的错误附录。([@gaearon](https://github.com/gaearon) in [#13384](https://github.com/facebook/react/pull/13384))
+
+-   关于渲染生成器的警告。([@gaearon](https://github.com/gaearon) in [#13312](https://github.com/facebook/react/pull/13312))
+
+-   从警告中删除遗留方法的无关建议。([@zx6658](https://github.com/zx6658) in [#13169](https://github.com/facebook/react/pull/13169))
+
+-   从 `schedule` 中删除 `unstable_deferredUpdates` 以支持 `unstable_scheduleWork`。([@gaearon](https://github.com/gaearon) in [#13488](https://github.com/facebook/react/pull/13488))
+
+-   修复不稳定的异步模式，使其在更新时间过长时执行不必要的工作。([@acdlite](https://github.com/acdlite) in [#13503](https://github.com/facebook/react/pull/13503))
+
+### React DOM Server
+
+-   在选定的 `<option>` 中使用 `dangerouslySetInnerHtml` 时，修复与nullish子进程崩溃的问题。([@mridgway](https://github.com/mridgway) in [#13078](https://github.com/facebook/react/pull/13078))
+
+-   缺少setTimeout时修复崩溃。([@dustinsoftware](https://github.com/dustinsoftware) in [#13088](https://github.com/facebook/react/pull/13088))
+
+### React Test Renderer and Test Utils
+
+-   在浅层渲染器的功能组件中修复 `this` 为 `undefined`。([@koba04](https://github.com/koba04) in [#13144](https://github.com/facebook/react/pull/13144))
+
+-   弃用特定于特定的 `ReactTestUtils.mockComponent()` 帮助器。([@bvaughn](https://github.com/bvaughn) in [#13193](https://github.com/facebook/react/pull/13193))
+
+-   警告测试渲染器中的ReactDOM.createPortal用法。([@bvaughn](https://github.com/bvaughn) in [#12895](https://github.com/facebook/react/pull/12895))
+
+-   改善令人困惑的错误消息。([@gaearon](https://github.com/gaearon) in [#13351](https://github.com/facebook/react/pull/13351))
+
+### React ART
+
+-   添加对DevTools的支持。([@yunchancho](https://github.com/yunchancho) in [#13173](https://github.com/facebook/react/pull/13173))
+
+### 调度程序（实验）
+
+-   用于在浏览器环境中协同调度工作的新程序包。 它在内部由React使用，但其公共API尚未最终确定。([@flarnie](https://github.com/flarnie) in [#12624](https://github.com/facebook/react/pull/12624))
 
 
 ## 16.4.2 (2018-08-01)
