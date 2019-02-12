@@ -1,5 +1,7 @@
 # react-changelogs
 
+注意⚠️： 下面只是做了简单的翻译，每条日志更新的具体信息请访问具体的[Pull requests](https://github.com/facebook/react/pulls)
+
 ## 16.8.1 (2019-01-06) 
 
 ### React DOM and React Test Renderer
