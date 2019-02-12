@@ -4,6 +4,46 @@
 
 ## 16.8.0 (2019-01-06)
 
+### React
+
+-   添加[Hooks](https://reactjs.org/docs/hooks-intro.html) - 一种在不编写类的情况下使用状态和其他React功能的方法。([@acdlite](https://github.com/acdlite) 等人. in [#13968](https://github.com/facebook/react/pull/13968))
+
+-   改进 `useReducer` Hook延迟初始化API。([@acdlite](https://github.com/acdlite) in [#14723](https://github.com/facebook/react/pull/14723))
+
+### React DOM
+
+-   为 `useState` 和 `useReducer` Hooks提供相同值的渲染保释。([@acdlite](https://github.com/acdlite) in [#14569](https://github.com/facebook/react/pull/14569))
+
+-   使用 `Object.is` 算法比较 `useState` 和 `useReducer` 值。([@Jessidhia](https://github.com/Jessidhia) in [#14752](https://github.com/facebook/react/pull/14752))
+
+-   不要比较传递给 `useEffect` / `useMemo` / `useCallback` Hooks的第一个参数。([@acdlite](https://github.com/acdlite) in [#14594](https://github.com/facebook/react/pull/14594))
+
+-   支持传递给 `React.lazy()` 的同步thenable。([@gaearon](https://github.com/gaearon) in [#14626](https://github.com/facebook/react/pull/14626))
+
+-   在严格模式（仅限DEV）中使用Hooks两次渲染组件以匹配类行为。([@gaearon](https://github.com/gaearon) in [#14654](https://github.com/facebook/react/pull/14654))
+
+-   警告开发中的Hook顺序不匹配。([@threepointone](https://github.com/threepointone) in [#14585](https://github.com/facebook/react/pull/14585) and [@acdlite](https://github.com/acdlite) in [#14591](https://github.com/facebook/react/pull/14591))
+
+-   效果清理功能必须返回 `undefined` 或函数。 不允许包括 `null` 在内的所有其他值。([@acdlite](https://github.com/acdlite) in [#14119](https://github.com/facebook/react/pull/14119))
+
+
+### React Test Renderer and Test Utils
+
+-   支持浅渲染器中的Hooks。([@trueadm](https://github.com/trueadm) in [#14567](https://github.com/facebook/react/pull/14567))
+
+-   在存在浅层渲染器的`getDerivedStateFromProps`的情况下修复`shouldComponentUpdate`中的错误状态。([@chenesan](https://github.com/chenesan) in [#14613](https://github.com/facebook/react/pull/14613))
+
+-   添加`ReactTestRenderer.act()`和`ReactTestUtils.act()`用于批处理更新，以便测试更接近实际行为。([@threepointone](https://github.com/threepointone) in [#14744](https://github.com/facebook/react/pull/14744))
+
+### ESLint Plugin: React Hooks
+
+-   Initial [release](https://www.npmjs.com/package/eslint-plugin-react-hooks)。 ([@calebmer](https://github.com/calebmer) in [#13968](https://github.com/facebook/react/pull/13968))
+
+-   遇到循环后修复报告。([@calebmer](https://github.com/calebmer) and [@Yurickh](https://github.com/Yurickh) in [#14661](https://github.com/facebook/react/pull/14661))
+
+-   不要认为抛出违反规则。([@sophiebits](https://github.com/sophiebits) in [#14040](https://github.com/facebook/react/pull/14040))
+
+
 ## 16.7.0 (2018-12-19)
 
 ### React DOM
