@@ -2,6 +2,16 @@
 
 ## 16.8.1 (2019-01-06) 
 
+### React DOM and React Test Renderer
+
+-   修复与旧版本的React一起使用时的崩溃。([@bvaughn](https://github.com/bvaughn) in [#14770](https://github.com/facebook/react/pull/14770
+))
+
+### React Test Utils
+
+-   修复一个在node环境中的崩溃。 ([@threepointone](https://github.com/threepointone) in [#14768](https://github.com/facebook/react/pull/14768))
+
+
 ## 16.8.0 (2019-01-06)
 
 ### React
