@@ -2,6 +2,25 @@
 
 注意⚠️： 下面只是做了简单的翻译，每条日志更新的具体信息请访问具体的[Pull requests](https://github.com/facebook/react/pulls)
 
+## 16.8.2 (2019-02-14)
+
+### React DOM
+
+-   修复在 `useeffect` 内被忽略的 `ReactDOM.render`。([@gaearon](https://github.com/gaearon) in [#14799](https://github.com/facebook/react/pull/14799))
+
+-   修复在卸载空portals时的崩溃。([@gaearon](https://github.com/gaearon) in [#14820](https://github.com/facebook/react/pull/14820))
+
+-   如果没有指定 `deps`，则修复 `useImperiativeHandle` 以正确工作。([@gaearon](https://github.com/gaearon) in [#14801](https://github.com/facebook/react/pull/14801))
+
+-   修复 `crossOrigin` 属性在SVG图像元素中工作。([@aweary](https://github.com/aweary) in [#14832](https://github.com/facebook/react/pull/14832))
+
+-   修复当使用带hooks的 `Suspense` 组件时错误的正面警告。([@gaearon](https://github.com/gaearon) in [#14821](https://github.com/facebook/react/pull/14821))
+
+## React Test Utils and React Test Renderer
+
+-   在 `act()` 警告中包含组件堆栈。([@threepointone](https://github.com/threepointone) in [#14855](https://github.com/facebook/react/pull/14855))
+
+
 ## 16.8.1 (2019-01-06) 
 
 ### React DOM and React Test Renderer
