@@ -2,6 +2,23 @@
 
 注意⚠️： 下面只是做了简单的翻译，每条日志更新的具体信息请访问具体的[Pull requests](https://github.com/facebook/react/pulls)
 
+## 16.8.3 (2019-02-21)
+
+### React DOM
+
+-   修复导致inputs在UMD构建中行为不正确的错误。([@gaearon](https://github.com/gaearon) in [#14914](https://github.com/facebook/react/pull/14914))
+
+-   修复导致渲染阶段更新被丢弃的错误。([@gaearon](https://github.com/gaearon) in [#14852](https://github.com/facebook/react/pull/14852))
+
+### React DOM Server
+
+-   当渲染流被破坏而未完成时，展开上下文堆栈，以防止在随后的呈现过程中出现不正确的值。([@overlookmotel](https://github.com/overlookmotel) in [#14706](https://github.com/facebook/react/pull/14706))
+
+### ESLint Plugin for React Hooks
+
+-   添加`eslint-plugin-react-hooks/exhaustive-deps`规则来检查过时的闭包依赖性。([@gaearon](https://github.com/gaearon) in [#14636](https://github.com/facebook/react/pull/14636))
+
+
 ## 16.8.2 (2019-02-14)
 
 ### React DOM
