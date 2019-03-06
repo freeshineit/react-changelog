@@ -2,6 +2,12 @@
 
 注意⚠️： 下面只是做了简单的翻译，每条日志更新的具体信息请访问具体的[Pull requests](https://github.com/facebook/react/pulls)
 
+## 16.8.4 (2019-03-05) 
+
+### React DOM and other renderers
+
+-   修复 `devtools` 在检查使用 `usecontext` hook的组件时导致运行时错误的bug。([@bvaughn](https://github.com/bvaughn) in [#14940](https://github.com/facebook/react/pull/14940))
+
 ## 16.8.3 (2019-02-21)
 
 ### React DOM
