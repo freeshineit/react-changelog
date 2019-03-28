@@ -2,6 +2,19 @@
 
 注意⚠️： 下面只是做了简单的翻译，每条日志更新的具体信息请访问具体的[Pull requests](https://github.com/facebook/react/pulls)
 
+## 16.8.6 (2019-03-27)
+
+### React DOM
+
+-   修复在`usereducer()`中错误的紧急援助。([@acdlite](https://github.com/acdlite) in [#15124](https://github.com/facebook/react/pull/15124))
+
+-   修复safari浏览器中`devtools`中的`iframe`警告。([@renanvalentin](https://github.com/renanvalentin) in [#15099](https://github.com/facebook/react/pull/15099))
+
+-   如果`contextType`设置为`Context.Consumer`而不是`Context`，则发出警告。([@aweary](https://github.com/aweary) in [#14831](https://github.com/facebook/react/pull/14831))
+
+-   如果`contextType`设置为无效值，则发出警告。([@gaearon](https://github.com/gaearon) in [#15142](https://github.com/facebook/react/pull/15142))
+
+
 ## 16.8.5 (2019-03-22)
 
 ### React DOM
