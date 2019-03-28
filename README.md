@@ -2,6 +2,29 @@
 
 注意⚠️： 下面只是做了简单的翻译，每条日志更新的具体信息请访问具体的[Pull requests](https://github.com/facebook/react/pulls)
 
+## 16.8.5 (2019-03-22)
+
+### React DOM
+
+-   不要将带有`size`属性的`select`标签中选中第一个选项。([@kulek1](https://github.com/kulek1) in [#14242](https://github.com/facebook/react/pull/14242))
+
+-   改进`useeffect（async（）=> ...）`警告消息。([@gaearon](https://github.com/gaearon) in [#15118](https://github.com/facebook/react/pull/15118))
+
+-   改进重复`React`引起的错误消息。([@jaredpalmer](https://github.com/jaredpalmer) in [#15139](https://github.com/facebook/react/pull/15139))
+
+### React DOM Server
+
+-   改进服务器渲染时的`uselayouteffect`警告消息。([@gaearon](https://github.com/gaearon) in [#15158](https://github.com/facebook/react/pull/15158))
+
+### React Shallow Renderer
+
+-   修复浅层渲染器中的“setstate”以使用`Hooks`。([@gaearon](https://github.com/gaearon) in [#15120](https://github.com/facebook/react/pull/15120))
+
+-   修复浅层渲染器以支持`react.memo`。([@aweary](https://github.com/aweary) in [#14816](https://github.com/facebook/react/pull/14816))
+
+-   修复浅渲染器以支持`forwardRef`内部的`Hooks`。([@eps1lon](https://github.com/eps1lon) in [#15100](https://github.com/facebook/react/pull/15100))
+
+
 ## 16.8.4 (2019-03-05) 
 
 ### React DOM and other renderers
