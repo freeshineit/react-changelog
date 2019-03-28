@@ -19,7 +19,7 @@
 
 ### React DOM
 
--   不要将带有`size`属性的`select`标签中选中第一个选项。([@kulek1](https://github.com/kulek1) in [#14242](https://github.com/facebook/react/pull/14242))
+-   不要将带有`size`属性的`select`标签选中第一个选项。([@kulek1](https://github.com/kulek1) in [#14242](https://github.com/facebook/react/pull/14242))
 
 -   改进`useeffect（async（）=> ...）`警告消息。([@gaearon](https://github.com/gaearon) in [#15118](https://github.com/facebook/react/pull/15118))
 
